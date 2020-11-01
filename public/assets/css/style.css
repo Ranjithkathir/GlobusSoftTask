@@ -1,0 +1,27 @@
+.sidebar-heading img{
+	width: 100%;
+}
+
+.list-group-item.active{
+	background: #007bff !important;
+}
+
+.formbtnarrange{
+	text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.formbtnarrange button{
+	width: 50%;
+}
+
+@media(max-width: 747px){
+	.navbarname{
+		display: none;
+	}
+	.formbtnarrange button{
+		width: 100%;
+	}
+}
