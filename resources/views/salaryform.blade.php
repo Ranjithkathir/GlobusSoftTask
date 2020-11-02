@@ -110,7 +110,7 @@
                             $("#salaryform")[0].reset();
                         }
                         if(response.rows){
-                            $('#fixed-sal').html('<div><p>The Salary slip of '+response.employeename+' is :</p><table><tr><td class="text-success">The Fixed Amount is Rs.'+response.fixedsalary+'</td></tr><tr><td class="text-success">The Salary credited is Rs.'+response.totalsalary+'</td></tr><tr><td class="text-danger">The Salary debited due to leave is Rs.'+response.leavelop+'</td></tr><tr><td class="text-danger">The Salary debited due to overtime late entry is Rs.'+response.overtimelop+'</td></tr><tr><td class="text-success">The Salary credited due to ontime puntual is Rs.'+response.bonusamnt+'</td></tr></table></div>');
+                            $('#fixed-sal').html('<div><p>The Salary slip of '+response.givenemployeename+' is :</p><table><tr><td class="text-success">The Fixed Amount is Rs.'+response.fixedsalary+'</td></tr><tr><td class="text-success">The Salary credited is Rs.'+response.totalsalary+'</td></tr><tr><td class="text-danger">The Salary debited due to leave is Rs.'+response.leavelop+'</td></tr><tr><td class="text-danger">The Salary debited due to overtime late entry is Rs.'+response.overtimelop+'</td></tr><tr><td class="text-success">The Salary credited due to ontime puntual is Rs.'+response.bonusamnt+'</td></tr></table></div>');
                         }
                     }
                 },
